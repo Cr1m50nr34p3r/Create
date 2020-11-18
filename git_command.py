@@ -5,15 +5,15 @@ from selenium.webdriver.common.keys import Keys
 import sys
 #### Change these values
 # directory to store project folders"
-project_dir = 'C:/Users/aksha/Desktop/Coding/Projects'
+project_dir = ''
 # path to chromedriver.exe file
-PATH = "C:/Users/aksha/chromedriver.exe"
+PATH = ""
 # git account email
-git_email="akshatgarg789@gmail.com"
+git_email=""
 # git account password
-git_passwd = 'Furgyv7$89'
+git_passwd = ''
 # git account username
-git_username="akshatgarg789"
+git_username=""
 ################################################################
 def init_repo(name):
     subprocess.call(['git','config','--global','user.name','akshatgarg789'],shell=True)

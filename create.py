@@ -4,9 +4,9 @@ import git_command
 import subprocess
 ##### Change these values
 # author name
-full_name = "Akshat Garg"
+full_name = ""
 # author email
-email="akshatgarg789@gmail.com"
+email=""
 ###########################################################
 code = "C:/Program Files/Microsoft VS Code/Code.exe"
 name=sys.argv[1]
